@@ -1,9 +1,13 @@
-public class Main {
+public class Hello {
 
     public static void main(String[] args) {
-
-        // My first time printing "Hello World!" in Java
-
+        // Printing Hello World to Console
         System.out.println("Hello World!");
+
+        // Assinging Integer 5 to My First Number
+        int myFirstNumber = 5;
+
+        // Printing myFirstNumber to Console
+        System.out.println(myFirstNumber);
     }
 }

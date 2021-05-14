@@ -1,4 +1,4 @@
-public class Hello {
+public class Main {
 
     public static void main(String[] args) {
         // Day 1
@@ -35,6 +35,11 @@ public class Hello {
         // Printing My Total to Console
         System.out.println("The total when we add up the three numbers is: \n");
         System.out.println(myTotal);
+
+        System.out.println("My Last Number: \n");
+
+        int myLastOne = 1000 - myTotal;
+        System.out.println(myLastOne);
 
     }
 }
